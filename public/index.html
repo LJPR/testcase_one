@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set up your zoombies</title>
+    <script src="./puppetlaunch.js"></script>
+    <style>
+    body{
+        background-color: bisque;
+        margin: 20px 0px 20px 0px;
+    }
+    .gridtainer{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 10px 18%;
+
+    }
+    .gridkid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: #fefefe;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    overflow:hidden;
+    }
+    .rounded{
+        border-radius: 5%;
+        min-width: 180px;
+        max-width: 360px;
+    }
+    input{
+        background-color: blanchedalmond;
+        border:none;
+        line-height: 1.75;
+        font-size:medium;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">invite the zoombies</h1>
+    <h2 style="margin: 0px auto; text-align:center;"><input style="text-align:center; font-weight: 600; background-color: #fefefe;font-size:larger" type="text" id="inviteURL" name="inviteURL" placeholder="paste here to invite all">
+    </h2>>
+
+<section class="gridtainer"> 
+    <div class="gridkid">
+        <img class="rounded" src="https://api.dicebear.com/6.x/bottts/svg" alt="avatar">
+        <div style="margin:0px auto;"><p>ernie@testuser.email</p></div>
+        <div style="margin: 8px auto;"><input type="text" id="inviteURL-ernie" name="inviteURL-ernie" placeholder="paste your zoom url here">
+        </div>
+    </div>
+    <div class="gridkid">
+        <img class="rounded" src="https://api.dicebear.com/6.x/bottts/svg" alt="avatar">
+        <div style="margin:0px auto;"><p>bert@testuser.email</p></div>
+        <div style="margin: 8px auto;"><input type="text" id="inviteURL-bert" name="inviteURL-bert" placeholder="paste your zoom url here">
+        </div>
+    </div>
+    <div class="gridkid">
+        <img class="rounded" src="https://api.dicebear.com/6.x/fun-emoji/svg?backgroundColor=56997b" alt="avatar">
+        <div style="margin:0px auto;"><p>gonzo@testuser.email</p></div>
+        <div style="margin: 8px auto;"><input type="text" id="inviteURL-gonzo" name="inviteURL-gonzo" placeholder="paste your zoom url here">
+        </div>
+    </div>
+    <div class="gridkid">
+        <img class="rounded" src="https://api.dicebear.com/6.x/fun-emoji/svg?backgroundColor=00897b" alt="avatar">
+        <div style="margin:0px auto;"><p>kermit@testuser.email</p></div>
+        <div style="margin: 8px auto;"><input type="text" id="inviteURL-kermit" name="inviteURL-kermit" placeholder="paste your zoom url here">
+        </div>
+    </div>
+</section>
+</body>
+</html>

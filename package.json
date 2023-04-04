@@ -1,0 +1,41 @@
+{
+  "name": "testcase_space",
+  "version": "1.0.0",
+  "description": "the site.",
+  "main": "index.js",
+  "scripts": {
+    "name": "sample-websocket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "dependencies": {
+      "express": "^4.17.3",
+      "ws": "^8.5.0"
+    }
+  }
+  
+  },
+  "puppeteer": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJPR/testcase_space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LJPR/testcase_space/issues"
+  },
+  "homepage": "https://github.com/LJPR/testcase_space#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^19.8.3",
+    "ws": "^8.13.0"
+  }
